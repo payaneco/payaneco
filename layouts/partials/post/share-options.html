@@ -1,0 +1,19 @@
+<div id="share-options-bar" class="share-options-bar" data-behavior="{{ .Scratch.Get "sidebarBehavior" }}">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    {{ range .Site.Params.sharingOptions }}
+      <li class="share-option">
+      {{ if (eq .name "Twitter") }}
+        <a class="share-option-btn" target="new" href="{{ printf .url (substr (querify " x " $.Permalink) 2) (substr (querify "x " $.Title) 2) }}">
+          <i class="fa {{ .icon }}"></i><span>{{ printf (i18n "global.share_on") .name }}</span>
+        </a>
+      {{ else }}
+        <a class="share-option-btn" target="new" href="{{ printf .url (substr (querify "x" $.Permalink) 2) }}">
+          <i class="fa {{ .icon }}"></i><span>{{ printf (i18n "global.share_on") .name }}</span>
+        </a>
+      {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
