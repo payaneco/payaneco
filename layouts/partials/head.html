@@ -54,6 +54,19 @@
         <link rel="stylesheet" href="{{ . | absURL }}">
       {{ end }}
     {{ end }}
+    <style>
+      /* NOTE: 直った時消しやすいよう、ここにテーマの上書きを書く */
+      /* 次のファイルが更新されたら消す
+        https://github.com/harapeko/payaneco/blob/master/themes/hugo-tranquilpeak-theme/src/scss/components/_video.scss */
+      .video-container video {
+        position:   absolute;
+        top:        0;
+        left:       0;
+        width:      100%;
+        height:     100%;
+        margin-top: 0;
+      }
+    </style>
 
     {{ if .Params.ga.async }}
       {{ template "_internal/google_analytics_async.html" . }}
