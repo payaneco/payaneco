@@ -1,7 +1,7 @@
 ---
 title: "素人のロードバイク100本ノック"
 slug: 07
-date: 2019-03-07T00:00:00+09:00
+date: 2009-03-07T00:00:00+09:00
 categories:
 - 自転車
 - 安全対策
@@ -10,7 +10,7 @@ tags:
 - 100本ノック
 keywords:
 
-thumbnailImage: /img/2019/3/7/25.jpg
+thumbnailImage:
 ---
 
 # これはなに？
