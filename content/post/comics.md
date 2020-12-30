@@ -917,14 +917,6 @@ Level.4 総距離180キロ！北海道まで行ってきます！
 + 出版元: 一迅社
 + リンク: [BookLive](https://booklive.jp/product/index/title_id/327779/vol_no/001) [読書メーター](https://bookmeter.com/books/10051831) [ブクログ](https://booklog.jp/item/1/B012FIY1F4)
 
-### ぶらりポタりずむ
-
-#### ぶらりポタりずむ(2016/06/27)
-
-+ 編著者: イセケヌ
-+ 出版元: 一迅社
-+ リンク: [BookLive](https://booklive.jp/product/index/title_id/383273/vol_no/001) [読書メーター](https://bookmeter.com/books/11087598) [ブクログ](https://booklog.jp/item/1/B01HEUR81W)
-
 ### 自転車女子はじめました
 
 #### 自転車女子はじめました(2020/03/04)
